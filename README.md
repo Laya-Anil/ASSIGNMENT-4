@@ -1,12 +1,13 @@
 ASSIGNMENT-4
 This project is an API Testing Framework designed to automate the validation of RESTful APIs using RestAssured and TestNG. It focuses on ensuring API endpoints function as expected by validating responses, handling errors, and performing data-driven testing.
+
 API Testing Framework
 
-Purpose
+Purpose:
 This project is an API Testing Framework built with RestAssured and TestNG. The purpose of this framework is to automate the validation of RESTful APIs, ensuring they respond correctly to different requests and scenarios. It helps developers and testers ensure API reliability, identify bugs, and validate data consistency. The framework is lightweight, scalable, and easy to extend for more complex use cases.
 
-Code Details
-1. GET Request Validation**
+Code Details:
+1. GET Request Validation
 - Method: `testGetRequest`
 - Purpose: Validates a GET request to fetch a single resource.
 - Functionality:
@@ -35,7 +36,7 @@ Code Details
   - Add retry logic for transient failures.
   - Log detailed messages for unexpected errors.
 
-Features
+Features:
 1. Validation of API Responses:
    - Checks status codes, response bodies, and specific fields.
 
